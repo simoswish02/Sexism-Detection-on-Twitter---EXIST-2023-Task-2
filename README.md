@@ -19,32 +19,8 @@ Three architectures are evaluated:
 
 All models are trained using multiple random seeds, and results are reported using an ensemble strategy based on prediction confidence.
 
-## Experimental Pipeline
-The main steps of the pipeline are:
-1. Dataset loading and cleaning
-2. Text preprocessing
-3. Vocabulary construction and embedding initialization
-4. Model training and evaluation
-5. Ensemble creation
-6. Error analysis
-
-## Evaluation
-Models are evaluated using accuracy, macro precision, macro recall, and macro F1-score on validation and test sets.
-
-## Repository Structure
-data/ # Dataset files
-notebooks/ # Jupyter notebooks for experiments
-models/ # Model definitions and training scripts
-results/ # Evaluation outputs
-
-
-## Requirements
-The experiments rely on the following libraries:
-- Python
-- Keras / TensorFlow
-- PyTorch
-- HuggingFace Transformers
-- Scikit-learn
+## Implementation
+Experiments are implemented using Python, Keras/TensorFlow, PyTorch, and the HuggingFace Transformers library. All preprocessing, training, evaluation, and analysis steps are documented in the provided notebooks.
 
 ## Notes
 This repository accompanies an academic report submitted as part of an NLP course assignment.
